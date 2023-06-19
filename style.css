@@ -1,5 +1,5 @@
 :root{
-    --color-fundo:#B0E2FF;
+    --color-fundo:orange;
 }
 body{
     padding: 0;
@@ -38,7 +38,7 @@ body{
 }
 .active::after{
     position: absolute;
-    content: ' ';
+    content: '';
     width: 15px;
     height: 15px;
     background: none;
@@ -52,7 +52,7 @@ body{
 }
 .active::before{
     position: absolute;
-    content: ' ';
+    content: '';
     width: 15px;
     height: 15px;
     background: none;
